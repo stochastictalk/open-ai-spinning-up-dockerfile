@@ -2,7 +2,7 @@
 
 A Dockerfile for [OpenAI's Spinning Up tutorial](https://spinningup.openai.com/en/latest/user/installation.html).
 
-## MacOS
+## MacOS 
 
 Set up an X11 server to allow the ...
 1. `docker build --tag xeyes -f xeyesDockerfile`
