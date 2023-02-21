@@ -4,7 +4,7 @@ A Dockerfile for [OpenAI's Spinning Up tutorial](https://spinningup.openai.com/e
 
 ## MacOS 
 
-Set up an X11 forwarding test image, install XQuartz, and test X11 forwarding from a Docker iamge to the host.
+Set up an X11 forwarding test image, install XQuartz, and run the test image. You should see googly eyes.
 1. `docker build --tag xeyes -f xeyesDockerfile`
 2. `brew install --cask xquartz`
 3. Open XQuarts > Settings > Security > Allow Connections From Network Clients.
